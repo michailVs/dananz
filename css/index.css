@@ -58,7 +58,7 @@ body {
     font-weight: 600;
 }
 
-.navbar__link-contact {
+.blue__btn {
     padding: 14px 32px;
     border: 1px solid #3C3C3C;
     background: #2C3878;
@@ -222,14 +222,6 @@ body {
     font-weight: 400;
     line-height: 160%;
     margin-bottom: 40px;
-}
-
-.about__main-info > button {
-    padding: 14px 32px;
-    background-color: #2C3878;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 500;
 }
 
 .service {

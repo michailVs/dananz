@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/logo.svg">
+    <title>Dananz - contact</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <div class="header__logo">
+                    <a href="../index.html"><img src="../assets/logo.svg" alt="Logo Dananz"></a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__link"><a href="../index.html">Home</a></li>
+                        <li class="navbar__link"><a href="./about.html">About&nbsp;Us</a></li>
+                        <li class="navbar__link"><a href="./service.html">Services</a></li>
+                        <li class="navbar__link"><a href="./ourTeams.html">Our&nbsp;Teams</a></li>
+                        <button class="contact__btn blue__btn">Contact&nbsp;Us</button>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__main">
+                <h1 class="header__title">Contact Us</h1>
+                <h2 class="header__descr">It&nbsp;is&nbsp;a&nbsp;long established fact that a&nbsp;reader will&nbsp;be distracted by&nbsp;the readable content of&nbsp;a&nbsp;page when looking at&nbsp;its layout.</h2>
+                <form class="header__form">
+                    <div class="form__name">
+                        <div class="form__box">
+                            <label for="fname" class="form__label">First name</label>
+                            <input
+                                type="text"
+                                id="fname"
+                                class="fname__input"
+                                placeholder="First name"
+                                required
+                            >
+                        </div>
+                        <div class="form__box">
+                            <label for="lname" class="form__label">Last name</label>
+                            <input
+                                type="text"
+                                id="lname"
+                                class="lname__input"
+                                placeholder="Last name"
+                                required
+                            >
+                        </div>
+                    </div>
+                    <div class="form__box">
+                        <label for="email" class="form__label">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            class="email__input"
+                            placeholder="Email"
+                            pattern="[^@\s]+@[^@\s]+"
+                            title="Invalid email address"
+                            required
+                        >
+                    </div>
+                    <div class="form__box">
+                        <label for="phone" class="form__label">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            class="phone__input"
+                            placeholder="Phone Number"
+                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                            required
+                        >
+                    </div>
+                    <div class="form__msg">
+                        <label for="msg" class="form__label">Message</label>
+                        <textarea
+                            id="msg"
+                            placeholder="Your Message"
+                            class="msg__input"
+                            required
+                        ></textarea>
+                    </div>
+                    <button class="form__btn blue__btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="location">
+        <div class="container">
+            <div class="location__head">
+                <h2 class="page">LOCATION</h2>
+                <span class="location__line"></span>
+            </div>
+            <div class="location__main">
+                <div class="location__left">
+                    <h2 class="left__title">Visit Our Stores</h2>
+                    <p class="left__descr">Find us at these locations.</p>
+                    <address class="left__address">
+                        <div class="address__box">
+                            <h2 class="location__title">Email</h2>
+                            <a href="mailto:dananz@gmail.com" class="location__descr address__href">dananz@gmail.com</a>
+                        </div>
+                        <div class="address__box">
+                            <h2 class="location__title">Phone</h2>
+                            <a href="tel:+628150021000" class="location__descr address__href">+62 815 002 1000</a>
+                        </div>
+                    </address>
+                </div>
+                <div class="location__right">
+                    <div class="right__card">
+                        <h2 class="location__title">Jakarta</h2>
+                        <p class="location__descr">Customize your interior design into a dream place with the best designers and quality furniture. We&nbsp;try our best to&nbsp;fulfill your expectations.</p>
+                    </div>
+                    <div class="right__card">
+                        <h2 class="location__title">Surakarta</h2>
+                        <p class="location__descr">Customize your interior design into a dream place with the best designers and quality furniture. We&nbsp;try our best to&nbsp;fulfill your expectations.</p>
+                    </div>
+                    <div class="right__card">
+                        <h2 class="location__title">Yogyakarta</h2>
+                        <p class="location__descr">Customize your interior design into a dream place with the best designers and quality furniture. We&nbsp;try our best to&nbsp;fulfill your expectations.</p>
+                    </div>
+                    <div class="right__card">
+                        <h2 class="location__title">Bandung</h2>
+                        <p class="location__descr">Customize your interior design into a dream place with the best designers and quality furniture. We&nbsp;try our best to&nbsp;fulfill your expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2 class="contact__title">let&rsquo;s discuss making your interior like a&nbsp;dream place!</h2>
+            <div class="contact__right">
+                <h3 class="contact__descr">
+                    Contact&nbsp;us below to&nbsp;work together to&nbsp;build your amazing interior
+                </h3>
+                <a href="./contact.html" class="contact__btn white-btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__left">
+                <a href="../index.html"><img src="../assets/logo.svg" alt="Logo Dananz" class="footer__logo"></a>
+                <h2 class="footer__text">
+                    One of&nbsp;the best furniture agency.
+                </h2>
+            </div>
+            <div class="footer__right">
+                <label class="footer__mail" for="footer__mail">
+                    <img src="../assets/circle.svg" alt="Circle input label">
+                    <h2>Enter your email to&nbsp;get the laterst news</h2>
+                </label>
+                <div class="footer__input-box">
+                    <input
+                        type="email"
+                        class="footer__input"
+                        id="footer__mail"
+                        placeholder="Email Address"
+                    >
+                    <img src="../assets/arrow-right.svg" alt="Input arrwo" class="footer__input-arrow">
+                </div>
+                <div class="footer__right-social">
+                    <div>
+                        <h3 class="footer__social-text">
+                            Follow&nbsp;us On
+                        </h3>
+                        <div class="footer__social-links">
+                            <a href="#" aria-label="Facebook">
+                                <div class="footer__social-circle">
+                                    <img src="../assets/fb-icon.svg" alt="Facebook">
+                                </div>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <div class="footer__social-circle">
+                                    <img src="../assets/inst-icon.svg" alt="Instagram">
+                                </div>
+                            </a>
+                            <a href="#" aria-label="Tictok">
+                                <div class="footer__social-circle">
+                                    <img src="../assets/tt-icon.svg" alt="Tictok">
+                                </div>
+                            </a>
+                            <a href="#" aria-label="Youtube">
+                                <div class="footer__social-circle">
+                                    <img src="../assets/yt-icon.svg" alt="Youtube">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>
